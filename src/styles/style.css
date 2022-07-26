@@ -54,9 +54,13 @@ h3 {
   display: flex;
 }
 
-.section {
+.container {
   width: 1110px;
   padding: 100px 0;
+}
+
+.col-2 {
+  display: flex;
 }
 
 .justify-center {
