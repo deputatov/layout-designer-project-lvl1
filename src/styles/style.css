@@ -9,22 +9,24 @@
   --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
+  --background-url: url("../../assets/images/background.png");
 }
 
 @font-face {
   font-weight: 400;
   font-family: Neucha;
-  src: url("../fonts/Neucha-Regular.ttf") format("ttf");
+  src: url("../../assets/fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Regular.ttf") format("ttf");
+  src: url("../../assets/fonts/OpenSans-Regular.ttf");
 }
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -38,16 +40,19 @@ body {
 h1 {
   font-size: 72px;
   font-family: Neucha, sans-serif;
+  line-height: 1.2em;
 }
 
 h2 {
   font-size: 60px;
   font-family: Neucha, sans-serif;
+  line-height: 1.2em;
 }
 
 h3 {
   font-size: 34px;
   font-family: Neucha, sans-serif;
+  line-height: 1.2em;
 }
 
 .d-flex {
@@ -55,6 +60,26 @@ h3 {
 }
 
 .container {
+  position: relative;
+
+  width: 1440px;
+  overflow: hidden;
+}
+
+.container::before {
+  position: absolute;
+
+  z-index: -1;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.9;
+
+  content: var(--background-url);
+}
+
+section {
   width: 1110px;
   padding: 100px 0;
 }
@@ -63,6 +88,15 @@ h3 {
   display: flex;
 }
 
+.col-2 > * {
+  width: 50%;
+  padding: 0 30px;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.highlight {
+  color: var(--main);
 }
