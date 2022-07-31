@@ -4,6 +4,7 @@
   --translucent-white: #d7ccc0;
   --light: #f5f4f0;
   --main: #fe8a02;
+  --hover-main: #ea7600;
   --basic-dark: #42413c;
   --dark: #2a2626;
   --translucent-dark: #908d8b;
@@ -22,6 +23,12 @@
   font-weight: 400;
   font-family: "Open Sans";
   src: url("../../assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Open Sans";
+  src: url("../../assets/fonts/OpenSans-Bold.ttf");
 }
 
 body {
@@ -74,7 +81,9 @@ h3 {
 .container::before {
   position: absolute;
 
-  z-index: -1;
+  max-width: 100%;
+
+  vertical-align: middle;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,8 +94,6 @@ h3 {
 }
 
 .b-light {
-  z-index: -1;
-
   background-color: var(--light);
 }
 
@@ -127,10 +134,38 @@ section {
   vertical-align: middle;
 }
 
-/* .main-image > img {
-
-} */
-
 .mt185 {
   margin-top: 185px;
+}
+
+.box {
+  display: flex;
+  margin: 0 -15px;
+}
+
+article {
+  flex: 1 1 auto;
+  margin: 0 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+
+  color: var(--white);
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: var(--main);
+}
+
+.btn:hover {
+  background-color: var(--hover-main);
+}
+
+.mt40 {
+  margin-top: 40px;
 }
