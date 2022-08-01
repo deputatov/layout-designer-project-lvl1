@@ -78,6 +78,14 @@ h3 {
   overflow: hidden;
 }
 
+.container-w {
+  width: 1440px;
+
+  text-align: center;
+
+  background-color: var(--white);
+}
+
 .container::before {
   position: absolute;
 
@@ -168,4 +176,12 @@ article {
 
 .mt40 {
   margin-top: 40px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
