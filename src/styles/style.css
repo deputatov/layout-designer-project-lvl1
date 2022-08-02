@@ -204,3 +204,19 @@ article {
 
   background-color: var(--basic-dark);
 }
+
+/* navigation section */
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.card-header {
+  font-size: 52px;
+}
+
+.card {
+  padding: 24px;
+
+  background-color: var(--light);
+}
