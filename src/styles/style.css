@@ -207,16 +207,41 @@ article {
 
 /* navigation section */
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .pt-200 {
   padding-top: 200px;
 }
 
 .card-header {
+  width: 350px;
+
   font-size: 52px;
 }
 
 .card {
+  display: block;
   padding: 24px;
 
+  text-decoration: none;
+
   background-color: var(--light);
+}
+
+.number-header {
+  margin-bottom: 40px;
+
+  color: var(--basic-dark);
+
+  font-size: 64px;
+  font-family: Neucha, sans-serif;
+  line-height: 1em;
+}
+
+nav > a > h3 {
+  color: var(--main);
 }
