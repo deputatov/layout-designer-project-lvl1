@@ -225,6 +225,9 @@ nav {
 
 .card {
   display: block;
+  box-sizing: border-box;
+  width: 350px;
+
   padding: 24px;
 
   text-decoration: none;
@@ -242,6 +245,37 @@ nav {
   line-height: 1em;
 }
 
-nav > a > h3 {
+nav a h3 {
+  margin: 0;
+
   color: var(--main);
+}
+
+nav a p {
+  color: var(--dark);
+}
+
+.row-1 {
+  height: 328px;
+}
+
+.row-2 {
+  height: 348px;
+  margin-top: 20px;
+}
+
+.card:hover {
+  background-color: var(--hover-main);
+}
+
+.card:hover h1 {
+  color: var(--white);
+}
+
+.card:hover h3 {
+  color: var(--white);
+}
+
+.card:hover p {
+  color: var(--white);
 }
