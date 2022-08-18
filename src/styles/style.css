@@ -279,3 +279,9 @@ nav a p {
 .card:hover p {
   color: var(--white);
 }
+
+/* ikea-effect section */
+
+.col {
+  display: flex;
+}
