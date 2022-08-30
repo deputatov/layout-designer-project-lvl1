@@ -285,3 +285,56 @@ nav a p {
 .col {
   display: flex;
 }
+
+.p-translucent-dark {
+  margin: 0;
+
+  color: var(--translucent-dark);
+  font-weight: 400;
+  font-size: 24px;
+  font-family: Neucha, sans-serif;
+  font-style: normal;
+  line-height: 29px;
+}
+
+.heading {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 60px;
+  font-family: Neucha, sans-serif;
+  font-style: normal;
+  line-height: 72px;
+}
+
+.p-description {
+  margin-top: 30px;
+
+  font-weight: 400;
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+  font-style: normal;
+  line-height: 41px;
+}
+
+.heading-2 {
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 5px 10px;
+
+  color: var(--white);
+
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 17px;
+
+  text-transform: uppercase;
+
+  background-color: var(--brown);
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
