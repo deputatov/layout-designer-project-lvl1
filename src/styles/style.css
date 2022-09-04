@@ -10,25 +10,25 @@
   --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --background-url: url("../../assets/images/background.png");
+  --background-url: url("../assets/images/background.png");
 }
 
 @font-face {
   font-weight: 400;
   font-family: Neucha;
-  src: url("../../assets/fonts/Neucha-Regular.ttf");
+  src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url("../../assets/fonts/OpenSans-Regular.ttf");
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url("../../assets/fonts/OpenSans-Bold.ttf");
+  src: url("../assets/fonts/OpenSans-Bold.ttf");
 }
 
 body {
@@ -317,6 +317,10 @@ nav a p {
   line-height: 41px;
 }
 
+.white {
+  color: var(--white);
+}
+
 .heading-2 {
   align-items: center;
   margin-top: 100px;
@@ -338,3 +342,31 @@ nav a p {
 .mt-20 {
   margin-top: 20px;
 }
+
+/* premature-optimization */
+
+.b-brown {
+  background-color: var(--brown);
+}
+
+.translucent-white {
+  color: var(--translucent-white);
+}
+
+.b-white {
+  background-color: var(--white);
+}
+
+.brown {
+  color: var(--brown);
+}
+
+section h2 {
+  margin: 0;
+
+  color: var(--main);
+
+  font-weight: normal;
+}
+
+/* для всех секций одинаковые стили заголовков и всего нужно только менять цвета!!!! */
