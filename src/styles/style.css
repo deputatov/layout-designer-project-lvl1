@@ -286,6 +286,10 @@ nav a p {
 
 /* ikea-effect section */
 
+.dark {
+  color: var(--dark);
+}
+
 .col {
   display: flex;
 }
