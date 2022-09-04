@@ -156,6 +156,10 @@ article {
   margin: 0 15px;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .btn {
   display: inline-block;
   padding: 12px 24px;
