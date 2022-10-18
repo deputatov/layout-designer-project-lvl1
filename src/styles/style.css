@@ -381,7 +381,12 @@ section h2 {
 
 /* footer */
 
+/* footer article  */
+
 footer .col-2 {
+  width: 1110px;
+  height: 190px;
+
   background-color: var(--basic-dark);
 }
 
@@ -398,4 +403,9 @@ footer .col-2 {
 
   line-height: 120%;
   text-align: left;
+}
+
+.email-input {
+  width: 100%;
+  height: 50px;
 }
