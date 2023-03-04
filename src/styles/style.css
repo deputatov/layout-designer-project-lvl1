@@ -120,3 +120,19 @@ h3 {
 .base-container__text_section > * {
   width: 50%;
 }
+
+.base-container__button {
+  display: inline-flex;
+
+  margin-top: 24px;
+  padding: 12px 24px;
+
+  color: var(--white);
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: var(--main);
+}
