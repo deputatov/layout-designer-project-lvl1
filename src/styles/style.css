@@ -89,11 +89,11 @@ h3 {
   content: var(--background-url);
 }
 
-.base-container__light {
+.base-container__background_color_light {
   background-color: var(--light);
 }
 
-.base-container__header_color_black {
+.base-container__heading_color_black {
   color: var(--dark);
 }
 
@@ -113,6 +113,7 @@ h3 {
   margin-top: 185px;
 
   color: var(--dark);
+  line-height: 25px;
 
   column-gap: 30px;
 }
@@ -135,4 +136,43 @@ h3 {
   text-decoration: none;
 
   background-color: var(--main);
+}
+
+.base-container__button:hover {
+  background-color: var(--hover-main);
+}
+
+.video-section {
+  background-color: var(--white);
+
+  position: relative;
+
+  bottom: -100px;
+}
+
+.video-section > * {
+  text-align: center;
+}
+
+.video-section__heading {
+  padding-top: 100px;
+}
+
+.video-section__heading_color_black {
+  color: var(--dark);
+}
+
+.video-section p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  color: var(--dark);
+}
+
+.video-section__video_frame {
+  display: block;
+
+  margin: 0 auto;
+
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
