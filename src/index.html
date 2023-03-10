@@ -9,22 +9,29 @@
   <link rel="stylesheet" href="styles/style.css" />
 </head>
 
+<!-- base-container 1440px -->
+<!-- --white by default white background-->
+<!-- --main-dark -->
+<!-- // this with section ::before where we has a picture -->
+<!-- --light -->
+<!-- --brown -->
+
+<!-- base-section  -->
+
 <body>
-  <header class="base-container base-container__background_color_light">
-    <section class="base-container__section">
+  <header class="container container_background_light">
+    <section class="section">
       <h1>
         Когнитивные<br />
         искажения<br />
-        <span class="base-container__heading_color_black">в программировании</span>
+        <span class="heading-inner">в программировании</span>
       </h1>
-      <img class="base-container__image" src="./assets/images/main.png" alt="Логотип персонаж с ноутбуком" />
-      <div class="base-container__text_section">
+      <img class="section__image" src="./assets/images/main.png" alt="Логотип персонаж с ноутбуком" />
+      <div class="text-section">
         <p>
-          Мы, разработчики, часто сталкиваемся с проблемами, которые
-          идут вразрез с нашей продуктивностью. Но мы часто игнорируем
-          целостную картину. Некоторые из этих проблем малозаметны,
-          некоторые существенны. Иногда с ними можно как-то справиться,
-          а иногда, к сожалению, нет.
+          Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто
+          игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними
+          можно как-то справиться, а иногда, к сожалению, нет.
         </p>
         <div>
           <p>
@@ -37,42 +44,94 @@
             нескольких из этих факторов, то сможем сломать и цикл, а
             остатки нейтрализовать.
           </p>
-          <a href="#navigation" class="base-container__button">подробнее</a>
+          <a href="#navigation" class="text-section__link">подробнее</a>
         </div>
-      </div>
     </section>
   </header>
-
-  <section class="video-section">
-    <h2 class="video-section__heading">
-      <span class="video-section__heading_color_black">Что же это такое,</span><br />
-      когнитивные искажения?
-    </h2>
-
-    <p>
-      Что такое когнитивные искажения. Petrovna Channel
-    </p>
-    <iframe
-      class="video-section__video_frame"
-      width="919"
-      height="569"
-      src="https://www.youtube.com/embed/jie9AizBqss"
-      frameborder="0"
-      allowfullscreen
-    ></iframe>
-  </section>
-
-  <nav>
-    <!-- navigation section    -->
-  </nav>
-
-  <main>
-    <!-- main section with main articles -->
-  </main>
-
-  <footer>
-    <!-- footer section -->
-  </footer>
+  <div class="video-container">
+    <section class="section">
+      <h2>
+        <span class="heading-inner">Что же это такое,</span><br />
+        когнитивные искажения?
+      </h2>
+      <p>
+        Что такое когнитивные искажения. Petrovna Channel
+      </p>
+      <iframe
+        class="video-frame"
+        width="919" height="569"
+        src="https://www.youtube.com/embed/jie9AizBqss"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </section>
+  </div>
 </body>
+
+<!-- <body> -->
+<!--   <header class="base-container base-container__background_color_light"> -->
+<!--     <section class="base-container__section"> -->
+<!--       <h1> -->
+<!--         Когнитивные<br /> -->
+<!--         искажения<br /> -->
+<!--         <span class="base-container__heading_color_black">в программировании</span> -->
+<!--       </h1> -->
+<!--       <img class="base-container__image" src="./assets/images/main.png" alt="Логотип персонаж с ноутбуком" /> -->
+<!--       <div class="base-container__text_section"> -->
+<!--         <p> -->
+<!--           мы, разработчики, часто сталкиваемся с проблемами, которые -->
+<!--           идут вразрез с нашей продуктивностью. но мы часто игнорируем -->
+<!--           целостную картину. некоторые из этих проблем малозаметны, -->
+<!--           некоторые существенны. иногда с ними можно как-то справиться, -->
+<!--           а иногда, к сожалению, нет. -->
+<!--         </p> -->
+<!--         <div> -->
+<!--           <p> -->
+<!--             Вместе они формируют что-то вроде замкнутого цикла, и это -->
+<!--             может привести к длительной потере продуктивности, багам и -->
+<!--             бесконечному разочарованию. -->
+<!--           </p> -->
+<!--           <p> -->
+<!--             Если мы сможем минимизировать воздействие одного или -->
+<!--             нескольких из этих факторов, то сможем сломать и цикл, а -->
+<!--             остатки нейтрализовать. -->
+<!--           </p> -->
+<!--           <a href="#navigation" class="base-container__button">подробнее</a> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--     </section> -->
+<!--   </header> -->
+
+<!--   <section class="video-section"> -->
+<!--     <h2 class="video-section__heading"> -->
+<!--       <span class="video-section__heading_color_black">Что же это такое,</span><br /> -->
+<!--       когнитивные искажения? -->
+<!--     </h2> -->
+
+<!--     <p> -->
+<!--       Что такое когнитивные искажения. Petrovna Channel -->
+<!--     </p> -->
+<!--     <iframe -->
+<!--       class="video-section__video_frame" -->
+<!--       width="919" -->
+<!--       height="569" -->
+<!--       src="https://www.youtube.com/embed/jie9AizBqss" -->
+<!--       frameborder="0" -->
+<!--       allowfullscreen -->
+<!--     ></iframe> -->
+<!--   </section> -->
+
+<!--   <nav> -->
+<!--     navigation section    -->
+<!--   </nav> -->
+
+<!--   <main> -->
+<!--     main section with main articles -->
+<!--   </main> -->
+
+<!--   <footer> -->
+<!--     footer section -->
+<!--   </footer> -->
+<!-- </body> -->
 
 </html>
