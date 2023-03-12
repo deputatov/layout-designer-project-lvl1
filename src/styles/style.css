@@ -85,31 +85,6 @@ h3 { font-size: 34px; }
   background: var(--brown);
 }
 
-.video-container {
-  position: relative;
-
-  background: var(--white);
-}
-
-.video-container .section {
-  padding: 0;
-
-  text-align: center;
-
-  top: 100px;
-}
-
-.video-container .section p {
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-  color: var(--dark);
-}
-
-.navigation-container {
-  background: var(--main_dark);
-}
-
 .section {
   position: relative;
   z-index: 1;
@@ -162,117 +137,110 @@ h3 { font-size: 34px; }
 }
 
 .text-section__link:hover {
-  background-color: var(--hover-main); 
+  background-color: var(--hover-main);
 }
 
-/* .base-container__section { */
-/*   position: relative; */
-/*   z-index: 1; */
+.video-container {
+  position: relative;
 
-/*   width: 1110px; */
+  height: 806px;
 
-/*   margin: 0 auto; */
-/*   padding: 100px 0; */
-/* } */
+  background: var(--white);
+}
 
-/* .base-container::before { */
-/*   position: absolute; */
+.video-container .section {
+  top: 100px;
 
-/*   max-width: 100%; */
+  padding: 0;
 
-/*   vertical-align: middle; */
+  text-align: center;
+}
 
-/*   background-repeat: no-repeat; */
-/*   background-size: cover; */
+.video-container .section p {
+  margin: 30px 0;
 
-/*   opacity: 0.1; */
+  color: var(--dark);
+}
 
-/*   content: var(--background-url); */
-/* } */
+.video-frame {
+  display: block;
 
-/* .base-container__background_color_light { */
-/*   background-color: var(--light); */
-/* } */
+  margin: 0 auto;
 
-/* .base-container__heading_color_black { */
-/*   color: var(--dark); */
-/* } */
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
 
-/* .base-container__image { */
-/*   position: absolute; */
+.navigation-container {
+  background: var(--main-dark);
+}
 
-/*   top: 55px; */
-/*   right: -270px; */
+.navigation-container .section {
+  padding-top: 200px;
+}
 
-/*   z-index: -1; */
+.navigation {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
 
-/*   height: 525px; */
-/* } */
+  column-gap: 30px;
+  row-gap: 20px;
+}
 
-/* .base-container__text_section { */
-/*   display: flex; */
-/*   margin-top: 185px; */
+.navigation > * {
+  max-width: 350px;
+}
 
-/*   color: var(--dark); */
-/*   line-height: 25px; */
+.navigation > h2 {
+  font-size: 52px;
 
-/*   column-gap: 30px; */
-/* } */
+  line-height: 120%;
+}
 
-/* .base-container__text_section > * { */
-/*   width: 50%; */
-/* } */
+.navigation .heading-inner {
+  color: var(--white);
+}
 
-/* .base-container__button { */
-/*   display: inline-flex; */
+.navigation__link {
+  display: block;
+  box-sizing: border-box;
+  padding: 24px;
 
-/*   margin-top: 24px; */
-/*   padding: 12px 24px; */
+  text-decoration: none;
 
-/*   color: var(--white); */
+  background-color: var(--light);
+}
 
-/*   font-weight: bold; */
+.navigation__link:hover {
+  background-color: var(--main);
+}
 
-/*   text-transform: uppercase; */
-/*   text-decoration: none; */
+.navigation__link:hover > * {
+  color: var(--white);
+}
 
-/*   background-color: var(--main); */
-/* } */
+.navigation__link h2 {
+  margin-bottom: 35px;
 
-/* .base-container__button:hover { */
-/*   background-color: var(--hover-main); */
-/* } */
+  color: var(--main-dark);
 
-/* .video-section { */
-/*   /* position: relative; */ 
+  font-size: 64px;
 
-/*   /* bottom: -100px; */ 
-/*   background-color: var(--white); */
-/* } */
+  line-height: 70px;
+}
 
-/* .video-section > * { */
-/*   text-align: center; */
-/* } */
+.navigation__link h3 {
+  color: var(--main);
 
-/* .video-section__heading { */
-/*   padding-top: 100px; */
-/* } */
+  line-height: 41px;
+}
 
-/* .video-section__heading_color_black { */
-/*   color: var(--dark); */
-/* } */
+.navigation .navigation__link p {
+  margin-top: 13px;
 
-/* .video-section p { */
-/*   margin-top: 30px; */
-/*   margin-bottom: 30px; */
+  margin-bottom: 0;
 
-/*   color: var(--dark); */
-/* } */
+  color: var(--dark);
 
-/* .video-section__video_frame {  */
-/*   display: block; */
-
-/*   margin: 0 auto; */
-
-/*   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%)); */
-/* } */
+  line-height: 25px;
+}
