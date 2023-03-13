@@ -58,6 +58,8 @@ h2 { font-size: 60px; }
 
 h3 { font-size: 34px; }
 
+h4 { font-size: 14px; }
+
 .heading-inner {
   color: var(--dark);
 }
@@ -243,4 +245,106 @@ h3 { font-size: 34px; }
   color: var(--dark);
 
   line-height: 25px;
+}
+
+.picture-section {
+  display: flex;
+
+  column-gap: 30px;
+}
+
+.picture-section img {
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.picture-section__text {
+  margin: 0;
+
+  font-size: 24px;
+  font-family: Neucha, sans-serif;
+  line-height: 29px;
+}
+
+.picture-section__congnitive-biases-text {
+  margin-top: 30px;
+
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+  line-height: 40px;
+}
+
+.container_background_light .picture-section__text {
+  color: var(--translucent-dark);
+}
+
+.container_background_brown .picture-section__text {
+  color: var(--translucent-white);
+}
+
+.container_background_light h2,
+.container_background_light .picture-section__congnitive-biases-text {
+  color: var(--dark);
+}
+
+.container_background_brown h2,
+.container_background_brown .picture-section__congnitive-biases-text {
+  color: var(--white);
+}
+
+.how-work-section {
+  margin-top: 100px;
+}
+
+.how-work-section h4 {
+  margin: 0;
+  padding-left: 10px;
+
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.container_background_light h4 {
+  color: var(--white);
+
+  background-color: var(--brown);
+}
+
+.container_background_brown h4 {
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
+.how-work-section__text-section {
+  display: flex;
+
+  line-height: 25px;
+
+  column-gap: 30px;
+}
+
+.how-work-section .how-work-section__text-section > * {
+  width: 50%;
+}
+
+.how-work-section .how-work-section__text-section > p {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.container_background_light .how-work-section__text-section {
+  color: var(--dark);
+}
+
+.container_background_brown .how-work-section__text-section {
+  color: var(--white);
+}
+
+.how-work-section .how-work-section__text-section > div {
+  margin-top: 20px;
+}
+
+.how-work-section .how-work-section__text-section > div > p {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
