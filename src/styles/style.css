@@ -348,3 +348,112 @@ h4 { font-size: 14px; }
   margin-top: 0;
   margin-bottom: 16px;
 }
+
+.mailing-form {
+  display: flex;
+  column-gap: 30px;
+
+  color: var(--white);
+
+  padding: 0 55px;
+
+  background-color: var(--main-dark);
+}
+
+.mailing-form > * {
+  width: 50%;
+}
+
+.mailing-form h3 {
+  margin: 55px 0;
+}
+
+.mailing-form p {
+  margin-top: 36px;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 9px;
+}
+
+.input-wrapper {
+  display: flex;
+}
+
+.input-wrapper input {
+  width: 423px;
+  height: 50px;
+
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+  
+  border: 1px solid #E3E3E3;
+
+  border-right: 0;
+}
+
+.input-wrapper input::placeholder {
+  font-size: 13.5px;
+  line-height: 21px;
+
+  padding-left: 15px;
+
+  color: #757575;
+  opacity: 0.2;
+}
+
+.input-wrapper button {
+  position: relative;
+
+  width: 70px;
+  height: 50px;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  background-color: var(--main);
+}
+
+.input-wrapper button::before {
+  position: absolute;
+
+  content: url(../assets/images/send.svg);
+  /* top: 30px; */
+  top: 14px;
+  left: 0;
+  right: 0;
+  /* left: 0; */
+}
+
+.mailing-form .mailing-form__agreement-text {
+  margin: 0;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.mailing-form__agreement-text a {
+  color: var(--white);
+}
+
+.contact-information {
+  margin-top: 76px;
+
+  font-size: 14px;
+  line-height: 22px;
+
+  color: black;
+  
+  text-align: center;
+}
+
+.contact-information p {
+  margin: 16px 0;
+}
+
+.contact-information a {
+  color: #1085C5;
+
+  text-decoration-line: underline;
+}
