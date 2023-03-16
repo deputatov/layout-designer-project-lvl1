@@ -162,6 +162,18 @@ h4 { font-size: 14px; }
   text-align: center;
 }
 
+.mailing-form p {
+  margin-top: 37px;
+  margin-bottom: 9px;
+
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.contact-information p {
+  margin: 16px 0;
+}
+
 .video-container .section p {
   margin: 30px 0;
 
@@ -174,6 +186,118 @@ h4 { font-size: 14px; }
   margin: 0 auto;
 
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.mailing-form {
+  display: flex;
+
+  padding: 0 55px;
+
+  color: var(--white);
+
+  column-gap: 30px;
+
+  background-color: var(--main-dark);
+}
+
+.mailing-form > * {
+  width: 50%;
+}
+
+.mailing-form h3 {
+  margin: 55px 0;
+
+  line-height: 40px;
+}
+
+.input-wrapper {
+  display: flex;
+}
+
+.input-wrapper input {
+  box-sizing: border-box;
+
+  width: 415px;
+  height: 50px;
+
+  margin: 0;
+  padding: 15px;
+
+  border: 1px solid #e3e3e3;
+
+  border-right: 0;
+}
+
+.input-wrapper input::placeholder {
+  color: #757575;
+
+  font-size: 13.5px;
+  line-height: 21px;
+
+  opacity: 0.2;
+}
+
+.input-wrapper button {
+  position: relative;
+
+  width: 70px;
+  height: 50px;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--main);
+
+  border: none;
+}
+
+.input-wrapper button:hover {
+  background-color: var(--hover-main);
+  cursor: pointer;
+}
+
+.input-wrapper button::before {
+  position: absolute;
+
+  top: 13px;
+  left: 23px;
+
+  width: 24px;
+  height: 24px;
+
+  background-image: url("../assets/images/send.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: "";
+}
+
+.mailing-form .mailing-form__agreement-text {
+  margin: 0;
+
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.mailing-form__agreement-text a {
+  color: var(--white);
+}
+
+.contact-information {
+  margin-top: 76px;
+
+  color: black;
+
+  font-size: 14px;
+  line-height: 22px;
+
+  text-align: center;
+}
+
+.contact-information a {
+  color: #1085c5;
+
+  text-decoration-line: underline;
 }
 
 .navigation-container {
@@ -351,125 +475,4 @@ h4 { font-size: 14px; }
 .how-work-section .how-work-section__text-section > div > p {
   margin-top: 0;
   margin-bottom: 16px;
-}
-
-.mailing-form {
-  display: flex;
-
-  padding: 0 55px;
-
-  color: var(--white);
-
-  column-gap: 30px;
-
-  background-color: var(--main-dark);
-}
-
-.mailing-form > * {
-  width: 50%;
-}
-
-.mailing-form h3 {
-  margin: 55px 0;
-
-  line-height: 40px;
-}
-
-.mailing-form p {
-  margin-top: 37px;
-  margin-bottom: 9px;
-
-  font-size: 18px;
-  line-height: 29px;
-}
-
-.input-wrapper {
-  display: flex;
-}
-
-.input-wrapper input {
-  box-sizing: border-box;
-
-  width: 415px;
-  height: 50px;
-
-  margin: 0;
-  padding: 0;
-
-  border: 1px solid #e3e3e3;
-
-  border-right: 0;
-}
-
-.input-wrapper input::placeholder {
-  padding-left: 15px;
-
-  color: #757575;
-
-  font-size: 13.5px;
-  line-height: 21px;
-
-  opacity: 0.2;
-}
-
-.input-wrapper button {
-  position: relative;
-
-  width: 70px;
-  height: 50px;
-
-  margin: 0;
-  padding: 0;
-
-  background-color: var(--main);
-
-  border: none;
-}
-
-.input-wrapper button::before {
-  position: absolute;
-
-  top: 13px;
-  left: 23px;
-
-  width: 24px;
-  height: 24px;
-
-  background-image: url("../assets/images/send.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  content: "";
-}
-
-.mailing-form .mailing-form__agreement-text {
-  margin: 0;
-
-  font-size: 12px;
-  line-height: 19px;
-}
-
-.mailing-form__agreement-text a {
-  color: var(--white);
-}
-
-.contact-information {
-  margin-top: 76px;
-
-  color: black;
-
-  font-size: 14px;
-  line-height: 22px;
-
-  text-align: center;
-}
-
-.contact-information p {
-  margin: 16px 0;
-}
-
-.contact-information a {
-  color: #1085c5;
-
-  text-decoration-line: underline;
 }
