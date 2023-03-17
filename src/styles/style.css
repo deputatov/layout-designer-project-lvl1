@@ -374,7 +374,7 @@ h4 { font-size: 14px; }
   line-height: 70px;
 }
 
-.navigation-link .navigation-link__number:hover {
+.navigation-link:hover .navigation-link__number {
   color: var(--white);
 }
 
