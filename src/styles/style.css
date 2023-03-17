@@ -333,7 +333,7 @@ h4 { font-size: 14px; }
   color: var(--white);
 }
 
-.navigation__link {
+.navigation-link {
   display: block;
   box-sizing: border-box;
   padding: 24px;
@@ -343,15 +343,18 @@ h4 { font-size: 14px; }
   background-color: var(--light);
 }
 
-.navigation__link:hover {
+.navigation-link:hover {
   background-color: var(--main);
 }
 
-.navigation__link:hover > * {
+.navigation-link:hover > * {
   color: var(--white);
 }
 
-.navigation__link h2 {
+.navigation-link .navigation-link__number {
+  font-family: Neucha, sans-serif;
+
+  margin-top: 0; 
   margin-bottom: 35px;
 
   color: var(--main-dark);
@@ -361,13 +364,13 @@ h4 { font-size: 14px; }
   line-height: 70px;
 }
 
-.navigation__link h3 {
+.navigation-link h3 {
   color: var(--main);
 
   line-height: 41px;
 }
 
-.navigation .navigation__link p {
+.navigation-link p {
   margin-top: 13px;
 
   margin-bottom: 0;
