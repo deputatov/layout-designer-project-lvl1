@@ -352,16 +352,20 @@ h4 { font-size: 14px; }
 }
 
 .navigation-link .navigation-link__number {
-  font-family: Neucha, sans-serif;
-
-  margin-top: 0; 
+  margin-top: 0;
   margin-bottom: 35px;
 
   color: var(--main-dark);
 
   font-size: 64px;
 
+  font-family: Neucha, sans-serif;
+
   line-height: 70px;
+}
+
+.navigation-link .navigation-link__number:hover {
+  color: var(--white);
 }
 
 .navigation-link h3 {
@@ -370,7 +374,7 @@ h4 { font-size: 14px; }
   line-height: 41px;
 }
 
-.navigation-link p {
+.navigation .navigation-link p {
   margin-top: 13px;
 
   margin-bottom: 0;
