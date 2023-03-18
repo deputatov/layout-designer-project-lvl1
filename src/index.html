@@ -10,14 +10,14 @@
 </head>
 
 <body>
-  <header class="container container_background_light">
+  <header class="container container-background-light">
     <section class="section">
       <h1>
         Когнитивные<br />
         искажения<br />
         <span class="heading-inner">в программировании</span>
       </h1>
-      <img class="section__image" src="./assets/images/main.png" alt="Каритинка пользователь с ноутбуком" />
+      <img class="section-image" src="./assets/images/main.png" alt="Каритинка пользователь с ноутбуком" />
       <div class="text-section">
         <p>
           Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто
@@ -35,7 +35,7 @@
             нескольких из этих факторов, то сможем сломать и цикл, а
             остатки нейтрализовать.
           </p>
-          <a href="#navigation" class="text-section__link">подробнее</a>
+          <a href="#navigation" class="text-section-link">подробнее</a>
         </div>
       </div>
     </section>
@@ -57,35 +57,35 @@
       ></iframe>
     </section>
   </div>
-  <div id="navigation" class="navigation-container">
+  <div class="navigation-container">
     <section class="section">
-      <nav class="navigation">
+      <nav id="navigation" class="navigation">
         <h2>
           5 когнитивных искажений <br />
           <span class="heading-inner">о существовании которых стоит помнить</span>
         </h2>
         <a class="navigation-link" href="#ikea-effect">
-          <p class="navigation-link__number">1</p>
+          <p class="navigation-link-number">1</p>
           <h3>Эффект ИКЕА</h3>
           <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
         </a>
         <a class="navigation-link" href="#premature-optimization">
-          <p class="navigation-link__number">2</p>
+          <p class="navigation-link-number">2</p>
           <h3>Преждевременная оптимизация</h3>
           <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
         </a>
         <a class="navigation-link" href="#distortion-of-novelty">
-          <p class="navigation-link__number">3</p>
+          <p class="navigation-link-number">3</p>
           <h3>Искажения новизны</h3>
           <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
         </a>
         <a class="navigation-link" href="#hyperbolic-depreciation">
-          <p class="navigation-link__number">4</p>
+          <p class="navigation-link-number">4</p>
           <h3>Гиперболическое обесценивание</h3>
           <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
         </a>
         <a class="navigation-link" href="#errors-in-planning">
-          <p class="navigation-link__number">5</p>
+          <p class="navigation-link-number">5</p>
           <h3>Ошибка планирования</h3>
           <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
         </a>
@@ -93,21 +93,21 @@
     </section>
   </div>
   <main>
-    <div id="ikea-effect" class="container container_background_light">
+    <div id="ikea-effect" class="container container-background-light">
       <section class="section">
           <div class="picture-section">
             <img src="./assets/images/1.png" alt="Картинка пользователей перед монитором">
             <div>
-              <p class="picture-section__text">Когнитивные искажения</p>
+              <p class="picture-section-text">Когнитивные искажения</p>
               <h2>Эффект ИКЕА</h2>
-              <p class="picture-section__congnitive-biases-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+              <p class="picture-section-cognitive-biases-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
             </div>
           </div>
           <div class="how-work-section">
             <h4>
               Как проявляется
             </h4> 
-            <div class="how-work-section__text-section">
+            <div class="how-work-section-text-section">
               <p>
                 Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.
               </p> 
@@ -118,13 +118,13 @@
         </div>
       </section> 
     </div>
-    <div id="premature-optimization" class="container container_background_brown">
+    <div id="premature-optimization" class="container container-background-brown">
       <section class="section">
         <div class="picture-section">
           <div>
-            <p class="picture-section__text">Когнитивные искажения</p>
+            <p class="picture-section-text">Когнитивные искажения</p>
             <h2>Преждевременная оптимизация</h2>
-            <p class="picture-section__congnitive-biases-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+            <p class="picture-section-cognitive-biases-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
           </div>
           <img src="./assets/images/2.png" alt="Картинка">
         </div>
@@ -132,7 +132,7 @@
           <h4>
             Как проявляется
           </h4>
-          <div class="how-work-section__text-section">
+          <div class="how-work-section-text-section">
             <p>
               Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
             </p> 
@@ -143,21 +143,21 @@
         </div>
       </section>
     </div>
-    <div id="distortion-of-novelty" class="container container_background_light">
+    <div id="distortion-of-novelty" class="container container-background-light">
       <section class="section">
         <div class="picture-section">
           <img src="./assets/images/3.png" alt="Картинка">
           <div>
-            <p class="picture-section__text">Когнитивные искажения</p>
+            <p class="picture-section-text">Когнитивные искажения</p>
             <h2>Искажение новизны</h2>
-            <p class="picture-section__congnitive-biases-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
+            <p class="picture-section-cognitive-biases-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
           </div>
         </div> 
         <div class="how-work-section">
           <h4>
             Как проявляется
           </h4>
-          <div class="how-work-section__text-section">
+          <div class="how-work-section-text-section">
             <p>
               Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!
             </p> 
@@ -168,13 +168,13 @@
         </div>
       </section>
     </div>
-    <div id="hyperbolic-depreciation" class="container container_background_brown">
+    <div id="hyperbolic-depreciation" class="container container-background-brown">
       <section class="section">
         <div class="picture-section">
            <div>
-            <p class="picture-section__text">Когнитивные искажения</p>
+            <p class="picture-section-text">Когнитивные искажения</p>
             <h2>Гиперболическое обесценивание</h2>
-            <p class="picture-section__congnitive-biases-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
+            <p class="picture-section-cognitive-biases-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
           </div>
           <img src="./assets/images/4.png" alt="Картинка">
         </div> 
@@ -182,7 +182,7 @@
           <h4>
             Как проявляется
           </h4>
-          <div class="how-work-section__text-section">
+          <div class="how-work-section-text-section">
             <p>
               Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.
             </p> 
@@ -193,21 +193,21 @@
         </div>
       </section> 
     </div>
-    <div id="errors-in-planning" class="container container_background_light">
+    <div id="errors-in-planning" class="container container-background-light">
       <section class="section">
         <div class="picture-section">
           <img src="./assets/images/5.png" alt="Картинка">
           <div>
-            <p class="picture-section__text">Когнитивные искажения</p>
+            <p class="picture-section-text">Когнитивные искажения</p>
             <h2>Ошибка планирования</h2>
-            <p class="picture-section__congnitive-biases-text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
+            <p class="picture-section-cognitive-biases-text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
           </div>
         </div> 
         <div class="how-work-section">
           <h4>
             Как проявляется
           </h4>
-          <div class="how-work-section__text-section">
+          <div class="how-work-section-text-section">
             <p>
               Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.
             </p>
@@ -234,7 +234,7 @@
             <input placeholder="Ваша электронная почта">
             <button type="button"></button>
           </div>
-          <p class="mailing-form__agreement-text">Подписываясь, вы принимаете <a href="">правила сервиса</a></p>
+          <p class="mailing-form-agreement-text">Подписываясь, вы принимаете <a href="">правила сервиса</a></p>
          </div>
       </div>
       <div class="contact-information">

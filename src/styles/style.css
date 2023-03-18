@@ -83,11 +83,11 @@ h4 { font-size: 14px; }
   content: "";
 }
 
-.container_background_light {
+.container-background-light {
   background: var(--light);
 }
 
-.container_background_brown {
+.container-background-brown {
   background: var(--brown);
 }
 
@@ -101,7 +101,7 @@ h4 { font-size: 14px; }
   padding: 100px 0;
 }
 
-.section__image {
+.section-image {
   position: absolute;
 
   top: 55px;
@@ -126,7 +126,7 @@ h4 { font-size: 14px; }
   width: 50%;
 }
 
-.text-section__link {
+.text-section-link {
   display: inline-flex;
 
   margin-top: 23px;
@@ -142,7 +142,7 @@ h4 { font-size: 14px; }
   background-color: var(--main);
 }
 
-.text-section__link:hover {
+.text-section-link:hover {
   background-color: var(--hover-main);
 }
 
@@ -284,14 +284,14 @@ h4 { font-size: 14px; }
   content: "";
 }
 
-.mailing-form .mailing-form__agreement-text {
+.mailing-form .mailing-form-agreement-text {
   margin: 0;
 
   font-size: 12px;
   line-height: 23px;
 }
 
-.mailing-form__agreement-text a {
+.mailing-form-agreement-text a {
   color: var(--white);
 }
 
@@ -361,7 +361,7 @@ h4 { font-size: 14px; }
   color: var(--white);
 }
 
-.navigation-link .navigation-link__number {
+.navigation-link .navigation-link-number {
   margin-top: 0;
   margin-bottom: 35px;
 
@@ -374,7 +374,7 @@ h4 { font-size: 14px; }
   line-height: 70px;
 }
 
-.navigation-link:hover .navigation-link__number {
+.navigation-link:hover .navigation-link-number {
   color: var(--white);
 }
 
@@ -394,7 +394,7 @@ h4 { font-size: 14px; }
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
-.picture-section__text {
+.picture-section-text {
   margin: 0;
 
   font-size: 24px;
@@ -402,7 +402,7 @@ h4 { font-size: 14px; }
   line-height: 29px;
 }
 
-.picture-section__congnitive-biases-text {
+.picture-section-cognitive-biases-text {
   margin-top: 30px;
 
   font-size: 34px;
@@ -410,21 +410,21 @@ h4 { font-size: 14px; }
   line-height: 40px;
 }
 
-.container_background_light .picture-section__text {
+.container-background-light .picture-section-text {
   color: var(--translucent-dark);
 }
 
-.container_background_brown .picture-section__text {
+.container-background-brown .picture-section-text {
   color: var(--translucent-white);
 }
 
-.container_background_light h2,
-.container_background_light .picture-section__congnitive-biases-text {
+.container-background-light h2,
+.container-background-light .picture-section-cognitive-biases-text {
   color: var(--dark);
 }
 
-.container_background_brown h2,
-.container_background_brown .picture-section__congnitive-biases-text {
+.container-background-brown h2,
+.container-background-brown .picture-section-cognitive-biases-text {
   color: var(--white);
 }
 
@@ -440,19 +440,19 @@ h4 { font-size: 14px; }
   text-transform: uppercase;
 }
 
-.container_background_light h4 {
+.container-background-light h4 {
   color: var(--white);
 
   background-color: var(--brown);
 }
 
-.container_background_brown h4 {
+.container-background-brown h4 {
   color: var(--brown);
 
   background-color: var(--white);
 }
 
-.how-work-section__text-section {
+.how-work-section-text-section {
   display: flex;
 
   line-height: 25px;
@@ -460,28 +460,28 @@ h4 { font-size: 14px; }
   column-gap: 30px;
 }
 
-.how-work-section .how-work-section__text-section > * {
+.how-work-section .how-work-section-text-section > * {
   width: 50%;
 }
 
-.how-work-section .how-work-section__text-section > p {
+.how-work-section .how-work-section-text-section > p {
   margin-top: 20px;
   margin-bottom: 0;
 }
 
-.container_background_light .how-work-section__text-section {
+.container-background-light .how-work-section-text-section {
   color: var(--dark);
 }
 
-.container_background_brown .how-work-section__text-section {
+.container-background-brown .how-work-section-text-section {
   color: var(--white);
 }
 
-.how-work-section .how-work-section__text-section > div {
+.how-work-section .how-work-section-text-section > div {
   margin-top: 20px;
 }
 
-.how-work-section .how-work-section__text-section > div > p {
+.how-work-section .how-work-section-text-section > div > p {
   margin-top: 0;
   margin-bottom: 16px;
 }
